@@ -1,7 +1,6 @@
 # GitAlias
-## Alias úteis para o git
 
-#### Git FPG (Fist Remote Push)
+#### 1. Git FPG (Fist Remote Push)
 ```
 $ git config --global alias.frp '!git init && git add . && git commit -m "first commit"  && git remote add origin $1 && git push -u origin master && :'
 ```
